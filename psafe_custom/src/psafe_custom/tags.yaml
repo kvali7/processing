@@ -1,0 +1,105 @@
+# Sheep experiment tags configuration
+tags:
+  - experiment_id: "sp2021_S1R2"
+    experiment_number: 1
+    experiment_round: 2
+    experiment_year_prefix: "sp2021"
+    additional_info: ""
+    abdominal_wall: -1
+    uterus_wall: -1
+
+  - experiment_id: "sp2021_S1R3"
+    experiment_number: 1
+    experiment_round: 3
+    experiment_year_prefix: "sp2021"
+    additional_info: ""
+    abdominal_wall: 12
+    uterus_wall: 6
+
+  - experiment_id: "sp2021_S2R1"
+    experiment_number: 2
+    experiment_round: 1
+    experiment_year_prefix: "sp2021"
+    additional_info: "P1"
+    abdominal_wall: -1
+    uterus_wall: -1
+
+  - experiment_id: "sp2021_S2R2"
+    experiment_number: 2
+    experiment_round: 2
+    experiment_year_prefix: "sp2021"
+    additional_info: ""
+    abdominal_wall: -1
+    uterus_wall: -1
+
+  - experiment_id: "sp2022_S10R1"
+    experiment_number: 10
+    experiment_round: 1
+    experiment_year_prefix: "sp2022"
+    additional_info: ""
+    abdominal_wall: 16
+    uterus_wall: 11
+
+  - experiment_id: "sp2022_S10R2"
+    experiment_number: 10
+    experiment_round: 2
+    experiment_year_prefix: "sp2022"
+    additional_info: ""
+    abdominal_wall: 16
+    uterus_wall: 11
+
+  - experiment_id: "sp2022_S1R1"
+    experiment_number: 1
+    experiment_round: 1
+    experiment_year_prefix: "sp2022"
+    additional_info: ""
+    abdominal_wall: -1
+    uterus_wall: -1
+
+  - experiment_id: "sp2022_S2R2"
+    experiment_number: 2
+    experiment_round: 2
+    experiment_year_prefix: "sp2022"
+    additional_info: ""
+    abdominal_wall: 7
+    uterus_wall: 10
+
+  - experiment_id: "sp2022_S4R1"
+    experiment_number: 4
+    experiment_round: 1
+    experiment_year_prefix: "sp2022"
+    additional_info: ""
+    abdominal_wall: 9
+    uterus_wall: 9
+
+  - experiment_id: "sp2022_S4R2"
+    experiment_number: 4
+    experiment_round: 2
+    experiment_year_prefix: "sp2022"
+    additional_info: ""
+    abdominal_wall: 9
+    uterus_wall: 9
+
+  - experiment_id: "su2020_S4R1"
+    experiment_number: 4
+    experiment_round: 1
+    experiment_year_prefix: "su2020"
+    additional_info: ""
+    abdominal_wall: -1
+    uterus_wall: -1
+
+  - experiment_id: "su2020_S5R1"
+    experiment_number: 5
+    experiment_round: 1
+    experiment_year_prefix: "su2020"
+    additional_info: ""
+    abdominal_wall: 10
+    uterus_wall: 3
+
+  - experiment_id: "su2020_S5R2"
+    experiment_number: 5
+    experiment_round: 2
+    experiment_year_prefix: "su2020"
+    additional_info: ""
+    abdominal_wall: 10
+    uterus_wall: 3

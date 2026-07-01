@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / output (keep structure, not files)
+data/*.csv
+data/*.npy
+data/*.pkl
+
+# Claude
+.claude/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
