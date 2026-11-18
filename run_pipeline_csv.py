@@ -24,15 +24,15 @@ from processing import (  # noqa: E402
 # ---------------------------------------------------------------------------
 # Config — edit here
 # ---------------------------------------------------------------------------
-INPUT_CSV = ROOT / "data" / "your_file.csv"
-OUT_CSV   = ROOT / "data" / "ppg_frames_csv.csv"
+INPUT_CSV = ROOT / "processing" / "data" / "patient3.csv"
+OUT_CSV   = ROOT / "processing" / "data" / "ppg_frames_patient3.csv"
 
-PPG_COL_NAMES = ["wl1_1", "wl1_2", "wl1_3", "wl1_4", "wl1_5",
-                 "wl2_1", "wl2_2", "wl2_3", "wl2_4", "wl2_5"]
+PPG_COL_NAMES = ["wl1_1", "wl1_2", "wl1_3", "wl1_5",
+                 "wl2_1", "wl2_2", "wl2_3", "wl2_5", ]
 HR_COL    = "FHR"
 FSAO2_COL = None   # set to column name if available, else zeros
 
-FRAMES_TO_AVERAGE = 120
+FRAMES_TO_AVERAGE: int = 120
 FS: float = 80.0
 HP_CUTOFF_HZ: float = 1.0
 HP_ORDER: int = 4

@@ -10,7 +10,7 @@ from typing import Any
 import numpy as np
 import pandas as pd
 import yaml
-from TFO_dataset import SheepData
+# from TFO_dataset import SheepData
 
 from psafe_custom.compute_frame import compute_frame, compute_start_indices
 
